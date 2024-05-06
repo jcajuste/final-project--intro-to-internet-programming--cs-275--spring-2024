@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: whitesmoke;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+h2 {
+  color: darkslategray;
+  border: 1px solid rgba(0, 0, 0, .2);
+  text-align: center;
+}
+
+td {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+  width: 30px;
+  line-height: 30px;
+}
+
+.diagonal {
+  background-color: yellow;
+  color: red;
+}
+
+.page {
+  background-color: white;
+  padding: 20px;
+  margin: 30px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, .1);
+  width: 80%;
+}
+
+table {
+  margin: 10px auto;
+}
